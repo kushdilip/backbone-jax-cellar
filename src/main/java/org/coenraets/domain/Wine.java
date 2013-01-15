@@ -21,6 +21,24 @@ public class Wine {
 
 	private String description;
 
+	
+	public Wine(String name, String grapes, String country, String region,
+			String year, String picture, String description) {
+		super();
+		this.name = name;
+		this.grapes = grapes;
+		this.country = country;
+		this.region = region;
+		this.year = year;
+		this.picture = picture;
+		this.description = description;
+	}
+
+	public Wine() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
 	public String getId() {
 		return id;
 	}

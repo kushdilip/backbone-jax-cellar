@@ -6,6 +6,10 @@
 
   <display-name>Archetype Created Web Application</display-name>
   
+  <welcome-file-list>
+      <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
   <context-param>
       <param-name>contextConfigLocation</param-name>
       <param-value>classpath:applicationContext.xml</param-value>
@@ -33,6 +37,6 @@
   
   <servlet-mapping>
       <servlet-name>jersey-servlet</servlet-name>
-      <url-pattern>/*</url-pattern>
+      <url-pattern>/wines/*</url-pattern>
   </servlet-mapping>
 </web-app>
